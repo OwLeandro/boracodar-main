@@ -14,6 +14,11 @@ body {
   font-size: 1.6rem;
   background-color: #7C3AED;
 }
+/*
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+*/
+
 
 a {
   text-decoration: none;
@@ -50,7 +55,7 @@ ul {
 
 li a {
   color: #CAB3FF;
-  
+
   display: flex;
   align-items: center;
   gap: 1.6rem;
