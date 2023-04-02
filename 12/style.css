@@ -35,6 +35,8 @@ main .inner {
   height: 100%;
   background-color: #FBFAFF;
   border-top-left-radius: 3.2rem;
+
+  padding: 4.8rem 3.2rem;
 }
 
 main {
@@ -72,3 +74,57 @@ a:hover {
 a ion-icon {
   font-size: 2rem;
 }
+
+/*Section Title & Avatar*/
+section.title-avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.1rem 2.4rem;
+}
+
+.title-avatar > img {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  padding-top: 1.2rem;
+
+  font-size: 3.2rem;
+  color: #403937;
+}
+
+section.filter {
+  margin-top: 3.2rem;
+  padding: 0 2.4rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.filter button {
+  padding: 1.2rem 3.2rem;
+  border: 0;
+  background-color: #7C3AED;
+  border-radius: .5rem;
+  color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.filter button span {
+  text-shadow: .0rem .4rem 1.6rem rgba(22, 22, 22,  0.1);
+  font-size: 1.4rem;
+}
+
+.filter button ion-icon {
+  font-size: 2.4rem;
+}
+
+.input-wrapper {}
